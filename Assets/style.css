@@ -1,0 +1,30 @@
+.visible { 
+    display: block; 
+
+
+}
+
+.hidden { 
+    display: none; 
+
+}
+body { 
+    display: grid; 
+    place-items: center;
+    height: 100vh; 
+    background: white; 
+}
+.start-button button { 
+    cursor: pointer;
+}
+
+.start-button:hover { 
+    background: white; 
+    color: brown; 
+}
+
+.quiz-header { 
+    height: 60px; 
+    width: 100%; 
+    background: white; 
+} 
