@@ -12,21 +12,66 @@
     <div class="outer-container">
         
         <div class="bar">
-            <button>Highscores</button>
-            <p>Timer: 00</p>
+            <div id="top-bar">
+                <button>Highscores</button>
+                <p>Timer: 00</p>
+            </div>
         </div>
+    </div>
+    
 
         <div class="inner-container">
 
 
             <header class="quiz-header">
+                <div id="quiz-start">
+                <h1>Welcome to the quiz!</h1>
+                <p>This is a coding quiz. To get started, please hit the start button. You will have thirty seconds to complete the entire quiz.</p>
+                 <button id="start-button">Start</button>
+                </div>
 
             </header>
 
 
             <main> 
+                <section class="questions">
+                    <div id="questions">
+                    <h2>What does HTML stand for?</h2>
+                    <ul> 
+                        <li><button id="answer1">answer 1</button></li>
+                        <li><button id ="answe2">answer 2</button></li>
+                        <li><button id ="answer3">answer 3</button></li>
+                        <li><button id ="answer4">answer 4</button></li>
+                    </ul>
+                   
+                </section>
 
-                
+                <section> 
+                    <h2>How to you comment out something in html?</h2>
+                    <ul>
+                        <li><button>answer 1</button></li>
+                        <li><button>answer 2</button></li>
+                        <li><button>answer 3</button></li>
+                        <li><button>answer 4</button></li>
+                    </ul>
+                </section>
+            
+            
+
+                <section class="finish-page">
+                    <div id="finish">
+                    <h2>Quiz Finished!</h2>
+                    <p>Your Score: 00</p>
+                    <div>
+                        <label for="">Enter Initials</label>
+                        <input type="text">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
             </main>
         </div>
 

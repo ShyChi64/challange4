@@ -6,21 +6,87 @@
     font-family: sans-serif;
 }
 
+body { 
+    overflow: hidden; 
+}
+
 p { 
     font-size: 1.3rem; 
 }
 
 button { 
     outline: none; 
-    background-color: black;
-    color: white;
     font-size: 1.3rem;
+}
+
+h1, h2 { 
+    color: lightgreen; 
+    text-align: center;
+}
+
+li { 
+    list-style: none;
 }
 
 .outer-container { 
     padding: 10px; 
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: start;
 }
 
 .bar p {
     float: right;
+}
+
+
+.inner-container { 
+    background-color: darkgray;
+    height: 100%; 
+    width: 50%; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.quiz-header, main { 
+    margin-bottom: 15vh; 
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: lightslategray;
+}
+
+.quiz-header p { 
+    text-align: center;
+}
+
+.quiz-header button { 
+    display: block; 
+    margin: 0 auto; 
+
+}
+
+
+main { 
+    display: none;
+}
+
+.finish-page { 
+    display: none; 
+
+}
+
+
+.score-page { 
+    display: none;
+}
+
+.score-page ol {  
+    max-height: 200px; 
+}
+
+.score-page ol[height-200px] { 
+    overflow-y: scroll;
 }
