@@ -2,12 +2,15 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    border: 1px solid green; 
     font-family: sans-serif;
 }
 
+
+
 body { 
-    overflow: hidden; 
+    background-color: rgb(164, 105, 218);
+    padding: 0; 
+    margin: 0; 
 }
 
 p { 
@@ -20,7 +23,7 @@ button {
 }
 
 h1, h2 { 
-    color: lightgreen; 
+    color: pink; 
     text-align: center;
 }
 
@@ -29,8 +32,7 @@ li {
 }
 
 .outer-container { 
-    padding: 10px; 
-    height: 100vh;
+    padding: 10px;
     display: flex; 
     flex-direction: column;
     justify-content: start;
@@ -42,7 +44,6 @@ li {
 
 
 .inner-container { 
-    background-color: darkgray;
     height: 100%; 
     width: 50%; 
     margin: 0 auto; 
@@ -51,11 +52,12 @@ li {
     justify-content: center; 
 }
 
-.quiz-header, main { 
+.quiz-header { 
     margin-bottom: 15vh; 
     margin-left: 10%;
     margin-right: 10%;
-    background-color: lightslategray;
+    background-color: white;
+    box-shadow: 0 0 10px 2px; 
 }
 
 .quiz-header p { 
@@ -68,25 +70,15 @@ li {
 
 }
 
-
-main { 
-    display: none;
+.btn { 
+    background-color: palevioletred; 
+    outline: none; 
 }
 
-.finish-page { 
+.btn:hover { 
+    border-color:black; 
+}
+
+.hide { 
     display: none; 
-
-}
-
-
-.score-page { 
-    display: none;
-}
-
-.score-page ol {  
-    max-height: 200px; 
-}
-
-.score-page ol[height-200px] { 
-    overflow-y: scroll;
 }

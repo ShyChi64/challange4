@@ -1,11 +1,18 @@
-var topBarEL = document.getElementById("top-bar"); 
-var startButtonEl = document.getElementById("start-button"); 
-var answer1 = document.getElementById("answer1"); 
-var answer2 = document.getElementById("answer2");
-var answer3 = document.getElementById("answer3");
-var answer4 = document.getElementById("answer4");
+var startButton = document.getElementById("start-button"); 
+var question = document.getElementById("questions-container1"); 
 
+startButton.addEventListener("click", startGame); 
 
-startButtonEl.on('click', function( { 
-    
-}))
+function startGame() { 
+    startButton.classList.add("hide") 
+    question.classList.remove("hide")
+
+}
+
+function setNextQuestion() { 
+
+}
+
+function selectAnswer() { 
+
+}

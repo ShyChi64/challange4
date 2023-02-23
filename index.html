@@ -25,28 +25,30 @@
 
             <header class="quiz-header">
                 <div id="quiz-start">
-                <h1>Welcome to the quiz!</h1>
-                <p>This is a coding quiz. To get started, please hit the start button. You will have thirty seconds to complete the entire quiz.</p>
-                 <button id="start-button">Start</button>
+                    <h1>Welcome to the quiz!</h1>
+                    <p>This is a coding quiz. To get started, please hit the start button. You will have thirty seconds to complete the entire quiz.</p>
+                    <button id="start-button" class="start-btn">Start</button>
                 </div>
 
             </header>
-
+            </div>
 
             <main> 
                 <section class="questions">
-                    <div id="questions">
+                    <div id="questions-container" class="hide">
                     <h2>What does HTML stand for?</h2>
                     <ul> 
-                        <li><button id="answer1">answer 1</button></li>
-                        <li><button id ="answe2">answer 2</button></li>
-                        <li><button id ="answer3">answer 3</button></li>
-                        <li><button id ="answer4">answer 4</button></li>
+                        <li><button class="btn">answer 1</button></li>
+                        <li><button class="btn">answer 2</button></li>
+                        <li><button class="btn">answer 3</button></li>
+                        <li><button class="btn">answer 4</button></li>
                     </ul>
+                    </div>
                    
                 </section>
 
                 <section> 
+                    <div id="questions-container" class="hide">
                     <h2>How to you comment out something in html?</h2>
                     <ul>
                         <li><button>answer 1</button></li>
@@ -54,12 +56,13 @@
                         <li><button>answer 3</button></li>
                         <li><button>answer 4</button></li>
                     </ul>
+                    </div>
                 </section>
             
             
 
                 <section class="finish-page">
-                    <div id="finish">
+                    <div id="finish" class="hide">
                     <h2>Quiz Finished!</h2>
                     <p>Your Score: 00</p>
                     <div>
@@ -68,7 +71,7 @@
                         <button>Submit</button>
                     </div>
                 </div>
-            </div>
+            
         </div>
             
 
